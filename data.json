@@ -1,0 +1,42 @@
+{
+  "time_points": [
+    {
+      "username": "doraemon2012314",
+      "rank": "Shift Supervisor",
+      "minutes": 120
+    }
+  ],
+  "leaderboard": [
+    {
+      "username": "doraemon2012314",
+      "points": 6
+    }
+  ],
+  "timelogs": [
+    {
+      "username": "doraemon2012314",
+      "rank": "Shift Supervisor",
+      "minutes": 60,
+      "week": 16,
+      "proof_url": "https://cdn.discordapp.com/ephemeral-attachments/1493964969560117278/1494522552289202176/IMG_3927.png?ex=69e2ea17&is=69e19897&hm=95b205dd6bd8ac45fc93afbb97e3faa47a1c1dc59e5a42203c4e2acb7fb18306&",
+      "timestamp": "2026-04-17T02:19:13.715715"
+    },
+    {
+      "username": "doraemon2012314",
+      "rank": "Shift Supervisor",
+      "minutes": 60,
+      "week": 16,
+      "proof_url": "",
+      "timestamp": "2026-04-17T02:19:13.705388"
+    }
+  ],
+  "staff": [
+    {
+      "user_id": "1252174197816561705",
+      "username": "doraemon2012314",
+      "rank": "Shift Supervisor",
+      "status": "Active"
+    }
+  ],
+  "last_updated": "2026-05-02T13:54:52.490151"
+}
