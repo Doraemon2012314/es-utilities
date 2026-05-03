@@ -1,13 +1,15 @@
+import os
 from flask import Flask, jsonify
 from flask_cors import CORS
 import requests
-import os
-from datetime import datetime
 
 app = Flask(__name__)
-CORS(app)  # Allow requests from your Netlify dashboard
+# Set secret key: use environment variable or fallback (change in production)
+app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'a-very-secret-key-change-this-in-production')
 
-# Your GitHub raw JSON URL
+# Allow CORS for your Netlify domain (add your exact URL)
+CORS(app, origins=["https://es-utilities.netlify.app", "https://135246.netlify.app"])
+
 GITHUB_DATA_URL = "https://raw.githubusercontent.com/Doraemon2012314/es-utilities/main/data.json"
 
 @app.route('/api/health', methods=['GET'])
@@ -18,6 +20,7 @@ def health():
 def stats():
     try:
         resp = requests.get(GITHUB_DATA_URL)
+        resp.raise_for_status()
         data = resp.json()
         points = data.get("time_points", [])
         total_staff = len(points)
@@ -40,6 +43,7 @@ def stats():
 def timepoints():
     try:
         resp = requests.get(GITHUB_DATA_URL)
+        resp.raise_for_status()
         data = resp.json()
         return jsonify({"points": data.get("time_points", [])})
     except Exception as e:
@@ -49,6 +53,7 @@ def timepoints():
 def leaderboard():
     try:
         resp = requests.get(GITHUB_DATA_URL)
+        resp.raise_for_status()
         data = resp.json()
         return jsonify({"leaderboard": data.get("leaderboard", [])})
     except Exception as e:
@@ -58,6 +63,7 @@ def leaderboard():
 def timelogs():
     try:
         resp = requests.get(GITHUB_DATA_URL)
+        resp.raise_for_status()
         data = resp.json()
         return jsonify({"logs": data.get("timelogs", [])})
     except Exception as e:
@@ -67,16 +73,11 @@ def timelogs():
 def staff():
     try:
         resp = requests.get(GITHUB_DATA_URL)
+        resp.raise_for_status()
         data = resp.json()
         return jsonify({"staff": data.get("staff", [])})
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-
-# Optional: endpoint to trigger force export (can call your bot's /forceexport webhook if you set one up)
-@app.route('/api/forceexport', methods=['POST'])
-def force_export():
-    # You could optionally forward this request to your bot if you add a webhook endpoint there.
-    return jsonify({"success": False, "message": "Manual trigger not configured"}), 501
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
