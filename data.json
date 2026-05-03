@@ -51,7 +51,7 @@
         "1493473374167371786",
         "1492860465108226171"
       ],
-      "status": "online",
+      "status": "offline",
       "bot": true
     },
     {
@@ -364,5 +364,242 @@
       "bot": true
     }
   ],
-  "last_updated": "2026-05-03T10:06:59.877034"
+  "roles": [
+    {
+      "id": "1494680791517495357",
+      "name": "Temp role",
+      "color": 0
+    },
+    {
+      "id": "1494287787757670523",
+      "name": "ESMT X SGFRP | Report Bot",
+      "color": 0
+    },
+    {
+      "id": "1493927551712759851",
+      "name": "ES | Utilities",
+      "color": 0
+    },
+    {
+      "id": "1493156777963815002",
+      "name": "Muted",
+      "color": 16711680
+    },
+    {
+      "id": "1492649896279543970",
+      "name": "Intern",
+      "color": 0
+    },
+    {
+      "id": "1472658892646518814",
+      "name": "Boost Bot",
+      "color": 15277667
+    },
+    {
+      "id": "1460467113482260609",
+      "name": "Strike 2",
+      "color": 7929856
+    },
+    {
+      "id": "1460467062781513801",
+      "name": "Strike 1",
+      "color": 11599872
+    },
+    {
+      "id": "1460467007710564414",
+      "name": "Activity Strike",
+      "color": 16711680
+    },
+    {
+      "id": "1454710081454215302",
+      "name": "SGFRP Moderation Team",
+      "color": 262405
+    },
+    {
+      "id": "1472290245813866538",
+      "name": "Trial Community Moderator",
+      "color": 4792656
+    },
+    {
+      "id": "1392634884912054393",
+      "name": "Trial Game Moderator",
+      "color": 2067276
+    },
+    {
+      "id": "1473172747139153942",
+      "name": "Junior Community Moderator",
+      "color": 7478167
+    },
+    {
+      "id": "1392635453609349181",
+      "name": "Junior Game Moderator",
+      "color": 2067276
+    },
+    {
+      "id": "1473173827478491208",
+      "name": "Community Moderator",
+      "color": 7676606
+    },
+    {
+      "id": "1392635050910023843",
+      "name": "Game Moderator",
+      "color": 3066993
+    },
+    {
+      "id": "1473174324977471612",
+      "name": "Senior Community Moderator",
+      "color": 7471359
+    },
+    {
+      "id": "1392635076931489912",
+      "name": "Senior Game Moderator",
+      "color": 41027
+    },
+    {
+      "id": "1454903133779132508",
+      "name": "LOW COMMAND",
+      "color": 0
+    },
+    {
+      "id": "1494200004573659147",
+      "name": "ES | Utilities Access 1",
+      "color": 3447003
+    },
+    {
+      "id": "1493473374167371786",
+      "name": "ES | Utilities Access 2",
+      "color": 7470079
+    },
+    {
+      "id": "1488626071749525504",
+      "name": "Phase 003 Hosting Pass",
+      "color": 15844367
+    },
+    {
+      "id": "1488626038723313675",
+      "name": "Phase 002 Hosting Pass",
+      "color": 15844367
+    },
+    {
+      "id": "1488625944959647804",
+      "name": "Phase 001 Hosting Pass",
+      "color": 15844367
+    },
+    {
+      "id": "1488625032719634673",
+      "name": "Information Phases Hosting Pass",
+      "color": 15844367
+    },
+    {
+      "id": "1473174787965718560",
+      "name": "Lead Community Moderator",
+      "color": 7930111
+    },
+    {
+      "id": "1454713154134347962",
+      "name": "Lead Game Moderator",
+      "color": 30001
+    },
+    {
+      "id": "1392635109584277647",
+      "name": "Shift Leader",
+      "color": 3447003
+    },
+    {
+      "id": "1454286683821314180",
+      "name": "Shift Supervisor",
+      "color": 52991
+    },
+    {
+      "id": "1488626290927075409",
+      "name": "Certified MIDCOM Phase Host",
+      "color": 2303
+    },
+    {
+      "id": "1467682901092077722",
+      "name": "Server Booster",
+      "color": 14287103
+    },
+    {
+      "id": "1460780427890528379",
+      "name": "LOA",
+      "color": 7697781
+    },
+    {
+      "id": "1454903215580516475",
+      "name": "MIDDLE COMMAND",
+      "color": 0
+    },
+    {
+      "id": "1488626155937464563",
+      "name": "Certified HICOM Phase Host",
+      "color": 1752220
+    },
+    {
+      "id": "1493430590383591465",
+      "name": "Community Moderation Advisor",
+      "color": 9699583
+    },
+    {
+      "id": "1493430537094959214",
+      "name": "Game Moderation Advisor",
+      "color": 29951
+    },
+    {
+      "id": "1493430698705682653",
+      "name": "Strategic Advisor",
+      "color": 15844367
+    },
+    {
+      "id": "1493430637204602990",
+      "name": "Education Advisor",
+      "color": 16747264
+    },
+    {
+      "id": "1392635170376650845",
+      "name": "Moderation High Command",
+      "color": 0
+    },
+    {
+      "id": "1492860465108226171",
+      "name": "Automations",
+      "color": 16777215
+    },
+    {
+      "id": "1447333552281747699",
+      "name": "Moderation Headquarters",
+      "color": 15277667
+    },
+    {
+      "id": "1489410760546189362",
+      "name": "HQ Phase Host",
+      "color": 65521
+    },
+    {
+      "id": "1492359031547887708",
+      "name": "Deputy Director of Operations",
+      "color": 16711680
+    },
+    {
+      "id": "1454710315165159586",
+      "name": "Director of Operations",
+      "color": 16738304
+    },
+    {
+      "id": "1492359338755362887",
+      "name": "Leadership Team",
+      "color": 0
+    },
+    {
+      "id": "1454709729740849311",
+      "name": "Bloxlink",
+      "color": 0
+    },
+    {
+      "id": "1392635293177479279",
+      "name": "Ownership",
+      "color": 986895
+    }
+  ],
+  "last_updated": "2026-05-03T10:30:12.590835"
 }
